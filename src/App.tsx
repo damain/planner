@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
+import Layout from './components/Layout'
 import './App.css'
 
 function App() {
     return (
     <div className="App">
-      <div className="text-2xl">Test </div>
+      <Layout>
+        <div className="text-2xl">Test </div>
+      </Layout>
+      
     </div>
   )
 }
