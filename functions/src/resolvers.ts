@@ -1,6 +1,6 @@
 const resolvers  = {
     Query:{
-        note (){
+        schedule (){
             return {text:"hello"}
         }
     }
